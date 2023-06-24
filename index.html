@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Municípios do Brasil pontilhados</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&display=swap">
+    <title>Mapa do Brasil pontilhado</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
+
 <body>
-    <h5 class="text-primary">Municípios do Brasil pontilhados</h5>
+    <div class="w-100 d-flex justify-content-end">
+        <div class="d-flex flex-column align-items-end">
+            <a href="https://github.com/savi8sant8s/mapa-brasil-pontilhado" target="_blank">
+                <img src="https://img.shields.io/badge/Projeto-mapa--brasil--pontilhado-blue" alt="Projeto">
+            </a>
+        </div>
+    </div>
+    <h5 class="text-primary">Mapa do Brasil pontilhado</h5>
     <div class="w-40 py-2">
         <select id="opcao" class="form-control" onchange="carregarPontos()">
             <option value="">Selecione uma opção de visualização</option>
-            <option value="aleatorio">Pontos aleatórios</option>
-            <option value="desc">De Norte a Sul</option>
-            <option value="asc">De Sul a Norte</option>
+            <option value="aleatorio">Aleatórios</option>
+            <option value="desc">Norte a Sul</option>
+            <option value="asc">Sul a Norte</option>
         </select>
     </div>
     <div>
         <canvas id="mapa" width="400" height="400"></canvas>
     </div>
+    <a href="https://github.com/kelvins/Municipios-Brasileiros">
+        <image src="https://img.shields.io/badge/Dataset-Municipios--Brasileiros-blue" alt="Dataset">
+    </a>
     <script src="municipios.js"></script>
     <script src="script.js"></script>
 </body>
