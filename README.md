@@ -5,3 +5,6 @@ Criação de uma mapa pontilhado do Brasil utilizando a latitude e longitude de 
 Dataset utilizado: https://github.com/kelvins/Municipios-Brasileiros.
 
 Tecnologias: HTML, Javascript e CSS.
+
+Página inicial:
+![foto](./foto.png)
