@@ -7,4 +7,4 @@ Dataset utilizado: https://github.com/kelvins/Municipios-Brasileiros.
 Tecnologias: HTML, Javascript e CSS.
 
 Página inicial:
-![foto](./foto.png)
+![foto](./image.png)
